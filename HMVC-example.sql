@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `HMVC-example`
+-- Database: `hmvc`
 --
 
 -- --------------------------------------------------------
@@ -64,7 +64,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `activation_key`, `registered_date`, `status`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'admin@admin.com', '', '2012-10-06 14:49:46', 1);
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'admin@mail.com', '', '2012-10-06 14:49:46', 1);
 
 -- --------------------------------------------------------
 
